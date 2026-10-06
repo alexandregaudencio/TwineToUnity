@@ -14,13 +14,12 @@ O sistema analisa passagens, escolhas, variáveis (condições e comandos), alé
 
 ## Instalação
 
-### Via Unity Package Manager (UPM)
-1. Abra o seu projeto Unity.
-2. Acesse **Window** > **Package Manager**.
-3. Clique no botão de mais (`+`) no canto superior esquerdo e selecione **"Add package from git URL..."**.
-4. Cole o link do repositório no GitHub (exemplo: `https://github.com/SeuUsuario/TwineToUnity.git`) e clique em **Add**.
+### Instalação
 
-*Alternativamente, você pode clonar/baixar este repositório e colocar a pasta diretamente dentro do diretório `Packages` ou `Assets` do seu projeto Unity.*
+1. Baixe ou clone este repositório.
+2. Copie a pasta `Assets/TwineToUnity` e cole diretamente dentro da pasta `Assets` do seu projeto Unity.
+
+*Desta forma, os arquivos estarão presentes no diretório `Assets` ao invés de `Packages`, permitindo acesso total e edição dos recursos, prefabs e exemplos de forma direta.*
 
 ## Como Usar
 

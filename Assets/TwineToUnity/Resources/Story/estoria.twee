@@ -1,0 +1,158 @@
+:: StoryTitle
+estorea
+
+
+:: StoryData
+{
+  "ifid": "3FA547E1-4B7C-4F33-B5AF-652B05A7A9F3",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Quarto",
+  "zoom": 1
+}
+
+
+:: Avançar {"position":"1300,550","size":"100,100"}
+Você caminhou até sair da floresta e consegue avistar a cabana no alto de uma colina.
+[[Subir a colina]]
+
+
+:: Bater na porta {"position":"1300,800","size":"100,100"}
+MAs que- O que voce tá fazendo??? Se aquela coisa ouvir e subir
+
+
+:: Debaixo da cama {"position":"1025,325","size":"100,100"}
+UI ta cheio de poeira, atacou sua rinite!
+Mas você achou sua fantasia de policial
+(text-colour:yellow)[AVISO DE IMAGEM SENSIVEL!!]
+
+Veja a fantasia por sua conta em risco [[aqui.]]
+
+
+:: Ir para a festa {"position":"950,475","size":"100,100"}
+UHUL agora tenta dançar ai pa ver
+
+[[dançar bem normie]]
+[[dançar bonito]]
+[[dançar timido]]
+
+
+:: Não ir pra festa {"position":"775,500","size":"100,100"}
+nao quer jogar?? ta loucooooo!
+vai pra festa (text-colour:red)[AGORA]
+
+[[Ir para a festa]] 
+
+
+:: Procurar dentro do armário {"position":"750,275","size":"100,100"}
+Meu deus que bagunça! com muita luta você
+consegui achar sua fantasia de cigarro!!
+
+(text-style:"smear","buoy")[<img src="https://i.pinimg.com/736x/8b/05/bd/8b05bd17e6aec820029bb78ca084f756.jpg" width="300">]
+
+([[aperte aqui para coletar]])
+
+
+:: Quarto {"position":"900,200","size":"100,100"}
+Voce está jogando o (text-style:"smear")[DANSUS]
+sua missão é arrasar na festa de halloween, qual você foi convidado(a)!!
+
+Vc tem duas fantasias, vá procurar uma em seu quarto!!
+
+[[Procurar dentro do armário]]
+
+[[Debaixo da cama]]
+
+
+:: Slay The Flávio {"position":"1300,300","size":"100,100"}
+[[Você é um cavaleiro, que foi enviado em uma missão para combater um monstro maligno.]]
+
+<img src="https://i.pinimg.com/736x/99/ec/c7/99ecc70378c9336560f844772382bc04.jpg" width="750">
+
+
+:: Subir a colina {"position":"1300,675","size":"100,100"}
+Você chega na entrada da cabana, a porta está fechada, essa canaba tem o aspecto bem abandonado.
+
+[[Bater na porta]]
+
+
+
+
+:: Você é um cavaleiro, que foi enviado em uma missão para combater um monstro maligno. {"position":"1300,425","size":"100,100"}
+Você está numa floresta, mais a frente há uma cabana, dentro do porão.
+[[Avançar]]
+
+
+
+:: \[<img src="https://i.pinimg.com/1200x/f2/a9/2e/f2a92e5eb2c927e1853e5216d42810e2.jpg" width="750"> {"position":"1150,625","size":"100,100"}
+Agora que ja tem sua fantasia, vá
+para a festa e arrase!!!
+
+[[Ir para a festa]] 
+
+[[Não ir pra festa]] 
+
+
+:: aperte aqui para coletar {"position":"650,400","size":"100,100"}
+Agora que ja tem sua fantasia, vá
+para a festa e arrase!!!
+
+[[Ir para a festa]] 
+
+[[Não ir pra festa]] 
+
+
+:: aqui. {"position":"1150,475","size":"100,100"}
+(text-style:"smear","buoy")[<img src="https://i.pinimg.com/1200x/f2/a9/2e/f2a92e5eb2c927e1853e5216d42810e2.jpg" width="300">]
+
+([[aperte aqui para coletar]])
+
+
+:: chorar e ir embora {"position":"775,750","size":"100,100"}
+voce perdeu o dansus vc n sabe dança e é burro
+[[Quarto]] 
+
+
+:: dançar bem normie {"position":"900,625","size":"100,100"}
+todos dançam junto com voce
+[[ficar timido]]
+
+
+:: dançar bonito {"position":"1025,625","size":"100,100"}
+[[quebrar tudo]]
+
+
+:: dançar timido {"position":"775,625","size":"100,100"}
+todos te zoam pq voce dança timido
+
+[[chorar e ir embora]]
+[[quebrar tudo]]
+[[mandar todo mundo toma noc]]
+
+
+:: ficar timido {"position":"1025,750","size":"100,100"}
+[[chorar e ir embora]] 
+
+
+:: mandar todo mundo toma noc {"position":"650,750","size":"100,100"}
+Todo mundo ficou constrangido e
+ficou um clima de merdaKKKKKKKK
+TE EXPULSARO
+
+<img src="https://i.pinimg.com/1200x/a6/20/ea/a620eaeae4546d27d4b5f498561e6d01.jpg" width="300">
+
+[[Quarto]]
+
+
+:: porra {"position":"1175,300","size":"100,100"}
+DERROTE FLAVIO BOLSONARO
+
+[[Slay The Flávio]] 
+
+
+:: quebrar tudo {"position":"900,750","size":"100,100"}
+você arrasou todos te acharam radical e voce ganhou pabens
+voce ganhou o dansus, acabou a festa agora vai pro quarto
+dormi q amanhâ tem ota festa.
+
+[[Quarto]] 

@@ -4,8 +4,7 @@
   "displayName": "Twine To Unity",
   "description": "A system to parse and interpret .twee (Twine/Harlowe) interactive stories within Unity, handling choices, variables, and images.",
   "unity": "2021.3",
-  "dependencies": {
-  },
+  "dependencies": {},
   "keywords": [
     "twine",
     "twee",
@@ -15,7 +14,7 @@
   ],
   "author": {
     "name": "Alexandre",
-    "email": "",
+    "email": "[EMAIL_ADDRESS]",
     "url": ""
   }
 }

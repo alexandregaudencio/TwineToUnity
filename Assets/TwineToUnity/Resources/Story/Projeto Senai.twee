@@ -1,0 +1,87 @@
+:: StoryTitle
+Projeto Senai
+
+
+:: StoryData
+{
+  "ifid": "5AD18DF6-A046-4E9A-B9D5-7282DC72614C",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Passagem sem Título",
+  "zoom": 1
+}
+
+
+:: Ignorar ele e continuar explorando a floresta {"position":"600,700","size":"100,100"}
+
+
+
+:: Ir ate a vila {"position":"800,700","size":"100,100"}
+Ao se aproximar mais da vila ela começa a parecer muito ficticia, lembrando um oasis e acaba vendo que aquela vila é uma ilusão
+
+[[correr deserto a dentro]]
+
+
+
+
+:: Ir até a casa {"position":"200,700","size":"100,100"}
+Você vê a porta meio aberta e decide entrar, olhando ao redor você não vê mais o macaco naquela casa, você vê duas mesas, em uma há um mapa com uma localização não muito longe da casa, na outra há uma maça mordida :
+
+[[Pegar o mapa e ir atras do X marcado]]
+[[Olhar a maça]]
+
+
+:: Ir para floresta {"position":"600,500","size":"100,100"}
+Voce encontrou um macaco, apos ele te ver, ele saiu correndo em meio a floresta densa
+
+[[Seguir ele em floresta densa]]
+[[Ignorar ele e continuar explorando a floresta]]
+
+
+:: Ir para o deserto {"position":"900,500","size":"100,100"}
+Em meio deserto denso, você vê uma vila bem atrativa
+
+[[Ir ate a vila]]
+[[passar reto pela vila]]
+
+
+:: Olhar a maça {"position":"300,900","size":"100,100"}
+Em baixo da maça você vê um bilhete dizendo :
+
+"Saia dessa casa imediatamente!!"
+
+Sem pensar duas vezes você sai correndo.
+
+
+Good Ending
+
+
+:: Passagem sem Título {"position":"800,300","size":"100,100"}
+Escolha destino :
+
+[[Ir para floresta]]
+[[Ir para o deserto]]
+
+
+:: Pegar o mapa e ir atras do X marcado {"position":"100,900","size":"100,100"}
+<img src="https://tse4.mm.bing.net/th/id/OIP.ZC5EsajsTsMMk5LAq1RuKQHaH3?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+
+Você ve o mapa e decide ir atras chegando la você vê o macaco e ele te joga um predregulho.
+
+Bad Ending
+
+
+:: Seguir ele em floresta densa {"position":"400,600","size":"100,100"}
+Apos seguir ele, voce vê de longe ele parando em uma casa abandona
+
+[[Ir até a casa]]
+
+
+:: correr deserto a dentro {"position":"800,900","size":"100,100"}
+
+
+
+:: passar reto pela vila {"position":"1000,700","size":"100,100"}
+Voce encontra um poço d'agua e se sacia nesse deserto escaldante
+
+Good Ending

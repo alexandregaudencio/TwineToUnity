@@ -1,0 +1,118 @@
+:: StoryTitle
+nova História
+
+
+:: StoryData
+{
+  "ifid": "AA45D457-560B-4DCC-8C06-A225C2D7248F",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Passagem sem Título",
+  "zoom": 1
+}
+
+
+:: Passagem sem Título {"position":"900,400","size":"100,100"}
+(set: $tentativas to 0)
+<img src="https://tse2.mm.bing.net/th/id/OIP.iHuWEs-vMzkRrKSOSyLWVwHaEL?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="1000">
+você vê um caminho com três placas
+
+[[bosque]]
+[[cidade]] 
+[[floresta]]
+
+
+:: bosque {"position":"1100,175","size":"100,100"}
+<img src="https://tse1.mm.bing.net/th/id/OIP.E9suS6rgog5OgMDO91_s_QHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="1000">
+você é envenenado por uma flor
+[[ir para o céu->céu]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.tpheo1P80VdtMU2hcbziDwHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+[[desistir->inferno]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.keDY-KYrQOt2-M_AQ0oZbwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+
+
+:: bosqueI {"position":"1700,200","size":"100,100"}
+<img src="https://tse1.mm.bing.net/th/id/OIP.E9suS6rgog5OgMDO91_s_QHaFj?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="1000">
+você é envenenado por uma flor
+(if:$tentativas > 5)[[[ir para o céu->inferno2]]]
+<img src="https://tse1.mm.bing.net/th/id/OIP.tpheo1P80VdtMU2hcbziDwHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+[[desistir->inferno]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.keDY-KYrQOt2-M_AQ0oZbwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+
+
+:: cidade {"position":"1100,400","size":"100,100"}
+<img src="https://www.carpemundi.com.br/wp-content/uploads/2025/07/cidades-medievais-na-europa.jpg" width="1000">
+você e assasinado por um bandido
+[[ir para o céu->céu]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.tpheo1P80VdtMU2hcbziDwHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+[[desistir->inferno]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.keDY-KYrQOt2-M_AQ0oZbwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+
+
+:: cidadeI {"position":"1700,400","size":"100,100"}
+<img src="https://www.carpemundi.com.br/wp-content/uploads/2025/07/cidades-medievais-na-europa.jpg" width="1000">
+você e assasinado por um bandido
+(if:$tentativas > 5)[[[ir para o céu->inferno2]]]
+<img src="https://tse1.mm.bing.net/th/id/OIP.tpheo1P80VdtMU2hcbziDwHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+[[desistir->inferno]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.keDY-KYrQOt2-M_AQ0oZbwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+
+
+:: céu {"position":"1300,400","size":"100,100"}
+você conseguiu sair do loop de sofrimento parabéns
+
+
+:: floresta {"position":"1100,600","size":"100,100"}
+<img src="https://th.bing.com/th?id=OIF.qRoLQl%2bMm96EhZVb9LIYEw&r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" width="1000">
+
+você morre por um urso
+
+[[ir para o céu->céu]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.tpheo1P80VdtMU2hcbziDwHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+[[desistir->inferno]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.keDY-KYrQOt2-M_AQ0oZbwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+
+
+:: florestaI {"position":"1700,600","size":"100,100"}
+<img src="https://th.bing.com/th?id=OIF.qRoLQl%2bMm96EhZVb9LIYEw&r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" width="1000">
+você morre por um urso
+
+(if:$tentativas > 5)[[[ir para o céu->inferno2]]]
+<img src="https://tse1.mm.bing.net/th/id/OIP.tpheo1P80VdtMU2hcbziDwHaE6?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+[[desistir->inferno]] 
+<img src="https://tse1.mm.bing.net/th/id/OIP.keDY-KYrQOt2-M_AQ0oZbwHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="200">
+
+
+:: inferno {"position":"1300,600","size":"100,100"}
+<img src="https://tse1.mm.bing.net/th/id/OIP.Z9km7m5-x9pLelGltXSHnwHaEP?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="1000">
+Esse aqui é o inferno
+
+você recebeu uma chance de retornar
+
+[[retorno]]
+
+
+:: inferno2 {"position":"1925,400","size":"100,100"}
+<img src="https://media.istockphoto.com/photos/devilish-grin-picture-id144881001?k=20&m=144881001&s=612x612&w=0&h=UixU8F7EuVdyevi4i85ypUSl8fNrU4dgqrruPJY-XzE=" width="1000">
+HAHAHAHAHAHHAHHAHAHAHHAHAHAHHAHAHAHHAHAHAHHAH
+
+você penseou mesmo que tinha esperança? seu idiota HAHAHAHAHAHHAHHAHHAHAHHAH
+
+[[tentar sair->preretorno]]
+
+
+:: preretorno {"position":"2100,400","size":"100,100"}
+Oque como você esta conseguindo sair seu merda?
+
+[[resolver os seus erros->retorno]] 
+
+
+:: retorno {"position":"1500,400","size":"100,100"}
+(set:$tentativas to $tentativas +1)
+<img src="https://tse2.mm.bing.net/th/id/OIP.iHuWEs-vMzkRrKSOSyLWVwHaEL?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" width="1000">
+voce ve um caminho com três placas
+você retornou $tentativas vezes
+[[bosque->bosqueI]]
+[[cidade->cidadeI]] 
+[[floresta->florestaI]] 
+

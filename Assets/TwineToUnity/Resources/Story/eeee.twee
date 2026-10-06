@@ -1,0 +1,136 @@
+:: StoryTitle
+eeee
+
+
+:: StoryData
+{
+  "ifid": "DE255E50-D665-4E7C-A384-CEBAE2920491",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Firjan SENAI SESI - Maracanã",
+  "zoom": 1
+}
+
+
+:: Firjan SENAI SESI - Maracanã {"position":"900,375","size":"100,100"}
+bem vindo à firjan!
+escolha um desses
+
+[[ir para o sesi]]
+[[ir para o senai]]
+
+<img src="https://grandetijuca.com.br/hf-conteudo/uploads/posts/2025/06/8884_captura-de-tela-2025-06-25-174251.png" width="600">
+
+
+:: afastar as pessoas {"position":"1025,875","size":"100,100"}
+parabens, vc ficou sozinho e triste, mas as vezes é melhor do que certas companhias.
+ainda existem pessoas que tbm estão sozinhas, vc quer falar com elas?
+[[sim eu quero - fazer amigos]]
+[[nao, sou um lobo solitário e não preciso de ngm]]
+
+
+
+:: falar com a pedagogia {"position":"1025,1125","size":"100,100"}
+"tampa o ouvido, é so nao dar atenção para essas pessoas"
+
+<img src="https://c.tenor.com/UiOPz3pqoiAAAAAC/united-to-end-bullying-buddy.gif" widith="50">
+
+
+:: fazer senai de manha {"position":"1025,625","size":"100,100"}
+ops! te colocamos na turma errada agr vc faz sesi de manha
+
+[[serei um aluno dedicado nos estudos]]
+[[vou tentar fazer amigos]]
+[[vou ficar sozinho num canto e tentar sobreviver]]
+
+
+:: fazer sesi de manha {"position":"900,625","size":"100,100"}
+ops! te colocamos na turma errada agr vc faz senai de manha
+
+[[serei um aluno dedicado nos estudos]]
+[[vou tentar fazer amigos]]
+[[vou ficar sozinho num canto e tentar sobreviver]]
+
+
+:: ir para o senai {"position":"1025,500","size":"100,100"}
+n da pra escolher um so vc so escolhe oq vc vai fzr primeiro
+
+[[fazer sesi de manha]]
+[[fazer senai de manha]]
+
+
+:: ir para o sesi {"position":"900,500","size":"100,100"}
+n da pra escolher um so vc so escolhe oq vc vai fzr primeiro
+
+[[fazer sesi de manha]]
+[[fazer senai de manha]]
+
+
+:: nao, sou um lobo solitário e não preciso de ngm {"position":"1150,1125","size":"100,100"}
+vc teve uma vida chata
+
+
+:: praticar bullying {"position":"900,1000","size":"100,100"}
+vai ficar tudo bem com voce. pode continuar, talvez só chamem os seus pais por isso, mas como sua comunicação com eles não é boa, vc vai continuar fazendo mesmo assim. e issso tbm vai te gerar popularidade
+
+[[ser popular]]
+
+
+:: ser amigo delas {"position":"900,875","size":"100,100"}
+tem q escolher um dos dois
+
+[[praticar bullying]]
+[[sofrer bullying]]
+
+
+:: ser popular {"position":"900,1125","size":"100,100"}
+e ai? se sente bem?
+
+
+:: serei um aluno dedicado nos estudos {"position":"1025,750","size":"100,100"}
+
+vc passou de ano, mas n gostam de vc pq te acham nerd demais. oq vc prefere fazer?
+[[vou me dedicar menos para ser aceito]]
+[[vou continuar me dedicando]]
+[[vou passar cola para ser aceito]]
+
+
+:: sim eu quero - fazer amigos {"position":"1150,1000","size":"100,100"}
+voce achou pessoas legais que te aceitam, mas todos vcs sofrem bullying
+
+
+:: sofrer bullying {"position":"1025,1000","size":"100,100"}
+vai ficar com depressao, ansiedade social, problemas de gastrite e nao vai mas querer ir para a escola. isso vai afetar o seu desempenho escolar
+
+[[falar com a pedagogia]]
+
+
+:: vou continuar me dedicando {"position":"1025,1250","size":"100,100"}
+vc passou de ano e tem uma vida mais próspera do que os que te julgavam
+porem agr vc sobre bullying
+[[falar com a pedagogia]]
+
+
+:: vou ficar sozinho num canto e tentar sobreviver {"position":"900,750","size":"100,100"}
+todo mundo decidiu que gosta de voce!
+
+[[afastar as pessoas]]
+[[ser amigo delas]]
+
+
+:: vou me dedicar menos para ser aceito {"position":"1150,875","size":"100,100"}
+vc passou a ser chamado de burro
+
+
+:: vou passar cola para ser aceito {"position":"1275,875","size":"100,100"}
+voce foi aceito!
+agr tem q escolher um dos dois
+
+[[praticar bullying]]
+[[sofrer bullying]]
+
+
+:: vou tentar fazer amigos {"position":"1150,750","size":"100,100"}
+parabens! agora voce esta sofendo bullying! ninguem te quer pq eles decidiram que voce nao é legal
+
+[[falar com a pedagogia]]
