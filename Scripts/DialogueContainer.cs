@@ -82,7 +82,7 @@ namespace SimpleTwineDialogue
             {
                 StopCoroutine(dialogueCoroutine);
             }
-            dialogueCoroutine = StartCoroutine(LoadTweeFile(Path.Combine(Application.streamingAssetsPath, "Story", filePath+".twee")));
+            dialogueCoroutine = StartCoroutine(LoadTweeFile(Path.Combine(Application.dataPath, "TwineToUnity", "Resources", "Story", filePath+".twee")));
         }
 
 
@@ -118,7 +118,7 @@ namespace SimpleTwineDialogue
                 }
                 else
                 {
-                    Debug.LogError("Twee file not found in StreamingAssets/Story: " + filePath);
+                    Debug.LogError("Twee file not found in TwineToUnity/Resources/Story: " + filePath);
                     yield break;
                 }
 
@@ -139,7 +139,7 @@ namespace SimpleTwineDialogue
             if (imageFileName.StartsWith("http://", System.StringComparison.OrdinalIgnoreCase) || imageFileName.StartsWith("https://", System.StringComparison.OrdinalIgnoreCase))
             {
                 string safeName = GetSafeFilename(imageFileName);
-                string localCachePath = Path.Combine(Application.streamingAssetsPath, "images", safeName);
+                string localCachePath = Path.Combine(Application.dataPath, "TwineToUnity", "Resources", "image", safeName);
 
                 if (File.Exists(localCachePath))
                 {
@@ -165,12 +165,23 @@ namespace SimpleTwineDialogue
                             Debug.LogError("Failed to parse downloaded image data as texture.");
                             yield break;
                         }
+
+                        // Download para pasta especifica
+                        try
+                        {
+                            Directory.CreateDirectory(Path.GetDirectoryName(localCachePath));
+                            File.WriteAllBytes(localCachePath, downloadedBytes);
+                        }
+                        catch (System.Exception e)
+                        {
+                            Debug.LogError($"Failed to save downloaded image to cache: {e.Message}");
+                        }
                     }
                 }
             }
             else
             {
-                string imagePath = Path.Combine(Application.streamingAssetsPath, "Story", imageFileName);
+                string imagePath = Path.Combine(Application.dataPath, "TwineToUnity", "Resources", "image", imageFileName);
                 if (File.Exists(imagePath))
                 {
                     byte[] imageBytes = File.ReadAllBytes(imagePath);
